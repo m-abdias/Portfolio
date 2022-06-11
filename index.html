@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfólio Mariana Abdias Gonçalves</title>
+  </head>
+
+  <body>
+    <nav id="navigation">
+      <div class="wrapper">
+        <div>
+          <img
+            id="logotipo"
+            src="./imagens/logo-mariana.png"
+            alt="logotipo com o nome de Mariana Abdias"
+          />
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a onclick="closeMenu()" href="#presentation">Início</a></li>
+            <li><a onclick="closeMenu()" href="#about">Sobre Mim</a></li>
+            <li><a onclick="closeMenu()" href="#portfolio">Portfólio</a></li>
+            <li><a onclick="closeMenu()" href="#contact">Contatos</a></li>
+          </ul>
+        </div>
+
+        <button
+          aria-expanded="false"
+          aria-label="Abrir menu"
+          onclick="openMenu()"
+          class="open-menu"
+        >
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 20H30"
+              stroke="#00856F"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M10 12H30"
+              stroke="#00856F"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M18 28L30 28"
+              stroke="#00856F"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+        <button
+          aria-expanded="true"
+          aria-label="Fechar menu"
+          onclick="closeMenu()"
+          class="close-menu"
+        >
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M30 10L10 30M10 10L30 30"
+              stroke="#FFFAF1"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <main>
+      <section id="presentation">
+      <div class="presentation container">
+        <div>
+          <h1>Olá,<span></span></h1>
+          <h1>Eu sou a<span></span></h1>
+          <h1>Mari<span></span></h1>
+          <a href="#portfolio" type="button" class="cta">Portfólio</a>
+        </div>
+      </div>
+      </section>
+
+      <section id="about">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h3>Sobre Mim</h3>
+            <h4>Conheça um pouco da minha história</h4>
+          </header>
+
+          <div class="content">
+            <p>
+              Venho de uma carreira profissional há mais de 7 anos de
+              experiência nas áreas de finanças das empresas, responsável por
+              otimizar processos e torná-los autossuficientes pelas empresas a
+              qual eu passei. Sou formada em Engenharia de Produção, apaixonada
+              por lógica e sempre em busca de conhecimento. Meu propósito é
+              impactar positivamente a vida das pessoas, por meio de processos
+              mais fluídos, eficazes e inteligentes. Estou em processo de
+              transição de carreira para a área de tecnologia. Iniciei em 2022
+              minha jornada na programação com formação FullStack de
+              desenvolvimento.
+            </p>
+            <p><strong>SKILLS</strong>
+              <br>Frontend: HTML | CSS | JavaScript | React | Jest
+              <br>Backend: Node | TypeScript | MySQL | AWS | FireBase</p>
+          </div>
+        </div>
+
+        <div class="col-b">
+          <img src="./imagens/imagem-mariana2.png" alt="Imagem de Mariana Abdias" />
+        </div>
+      </div>
+      </section>
+
+      <section id="portfolio">
+      <div class="portfolio container">
+        <div class="portfolio header">
+          <h1 class="section-title"><span>Meus Projetos</span></h1>
+        </div>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Projeto Black Jack</h1>
+              <h2>Black Jack ou Vinte-e-um</h2>
+              <p>
+                O Projeto BlackJack ou Vinte-e-um é um jogo praticado com cartas em casinos e que pode ser jogado com 1 a 8 baralhos de 52 cartas, em que o objetivo é ter mais pontos do que o adversário, mas sem ultrapassar os 21 (caso em que se perde). Esse projeto foi inicialmente construído com a tecnologia em JavaScript e agora implementado em React.js.
+              </p>
+              <p>Linguagens utilizadas: React.js</p>
+              <div class="button-portfolio">
+                <button>
+                  <a
+                    target="_blank"
+                    href="https://github.com/m-abdias/Projeto-Black-Jack"
+                    >Github</a
+                  >
+                </button>
+                <button>
+                  <a target="_blank" href="#"
+                    >Acessar</a
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="project-img">
+              <img src="./imagens/blackjack.jpg" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Projeto Landing-Page</h1>
+              <h2>F4Bank</h2>
+              <p>
+                O F4Bank é a criação de um projeto de um banco público
+                brasileiro para competir com as startups que tem surgido, como
+                Nubank, Banco Inter e Banco Neon. Esse projeto foi desenvolvido
+                em grupo, pensamos, desenhamos e desenvolvemos um site moderno e
+                responsivo.
+              </p>
+              <p>Linguagens utilizadas: HTML, CSS, JS</p>
+              <div class="button-portfolio">
+                <button>
+                  <a
+                    target="_blank"
+                    href="https://github.com/m-abdias/LandingPage---F4Bank"
+                    >Github</a
+                  >
+                </button>
+                <button>
+                  <a target="_blank" href="https://petite-good-bye.surge.sh/"
+                    >Acessar</a
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="project-img">
+              <img src="./imagens/mulher-laranja-cartao.png" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Projeto WhatsLab</h1>
+              <h2>Aplicativo de troca de mensagens</h2>
+              <p>
+                O WhatsLab foi um projeto desenvolvido por mim, que consiste em
+                criar um aplicativo de troca de mensagens. O MVP deste projeto
+                era: cada mensagem deve possuir um remetente (ou seja, um
+                usuário que enviou) e o conteúdo em si. Os inputs devem ser
+                controlados e os campos resetados após o envio da mensagem.
+              </p>
+              <p>Linguagem utilizada: React.js</p>
+              <div class="button-portfolio">
+                <button>
+                  <a
+                    target="_blank"
+                    href="https://github.com/m-abdias/WhatsLab"
+                    >Github</a
+                  >
+                </button>
+                <button>
+                  <a target="_blank" href="https://hateful-glove.surge.sh/"
+                    >Acessar</a
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="project-img">
+              <img src="./imagens/whatslab.png" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Projeto LabeCommerce</h1>
+              <h2>
+                E-commerce de camisetas com estampas divertidas relacionadas ao
+                espaço
+              </h2>
+              <p>
+                Este projeto foi desenvolvido em grupo, com o objetivo de
+                desenvolver um e-commerce simples utilizando o React. O site não
+                esta responsivo, Mas consta uma home onde renderiza todos os
+                produtos, ordenando-os com filtros. É possível adicionar os
+                produtos ao carrinho e remover ítens do carrinho.
+              </p>
+              <p>Linguagem utilizada: React.js</p>
+              <div class="button-portfolio">
+                <button>
+                  <a
+                    target="_blank"
+                    href="https://github.com/m-abdias/Labecommerce"
+                    >Github</a
+                  >
+                </button>
+                <button>
+                  <a target="_blank" href="https://impossible-cloth.surge.sh/"
+                    >Acessar</a
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="project-img">
+              <img src="./imagens/labecommerce.png" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Projeto Labefy</h1>
+              <h2>Site para escutar suas músicas</h2>
+              <p>
+                O Labefy foi um projeto desenvolvido por mim, a ideia principal
+                deste projeto foi realizar uma integração com a API Labefy, que
+                permite o gerenciamento básico de playlists de músicas. O
+                usuário é capaz de criar suas playlists, adicionar músicas as
+                playlists criadas, escutá-las e também é possível deletar
+                músicas e playlist.
+                <p>Linguagem utilizada: React.js</p>
+              </p>
+              <div class="button-portfolio">
+                <button>
+                  <a
+                    target="_blank"
+                    href="https://github.com/m-abdias/Labefy"
+                    >Github</a
+                  >
+                </button>
+                <button>
+                  <a target="_blank" href="https://silly-spring.surge.sh/"
+                    >Acessar</a
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="project-img">
+              <img src="./imagens/labefy.png" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Projeto Astro Match</h1>
+              <h2>Astro Match</h2>
+              <p>
+                O Projeto Astromatch foi um projeto desenvolvido com o objetivo de fazer um clone do Tinder.
+              </p>
+              <p>Linguagens utilizadas: React, Axios, Hooks: useState e useEffect</p>
+              <div class="button-portfolio">
+                <button>
+                  <a
+                    target="_blank"
+                    href="https://github.com/m-abdias/Astromach"
+                    >Github</a
+                  >
+                </button>
+                <button>
+                  <a target="_blank" href="https://certain-health.surge.sh/"
+                    >Acessar</a
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="project-img">
+              <img src="./imagens/astromatch.jpg" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <section id="contact">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h4>Entre em contato comigo!</h4>
+          </header>
+
+          <div class="content">
+            <ul>
+              <li>
+                Itajubá - MG
+              </li>
+              <li>
+                @marianaabdias
+              </li>
+              <li>
+                mabdiasgoncalves@gmail.com
+              </li>
+            </ul>
+
+            
+          </div>
+        </div>
+
+        <div class="col-b">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59006.3837895959!2d-45.494087344282605!3d-22.43282748766183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cb638240ee9d05%3A0x9c782630346ca79d!2zSXRhanViw6EsIE1H!5e0!3m2!1spt-BR!2sbr!4v1654134220043!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
+        
+      </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrapper">
+        <div class="col-a">
+            <img
+            id="logotipo"
+            src="./imagens/logo-mariana.png"
+            alt="logotipo com o nome de Mariana Abdias"
+          />
+
+          <p>
+            ©2022 Mariana Abdias Gonçalves. <br />
+            Todos os direitos reservados.
+          </p>
+        </div>
+
+        <div class="col-b">
+          <ul class="social-links">
+            <li>
+              <a target="_blank" href="https://instagram.com/marianaabdias"
+                >            
+                <img
+                id="links-sociais"
+                src="./imagens/insta.png"
+                alt="instagram"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              />
+                
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://www.linkedin.com/in/mariana-abdias-gon%C3%A7alves-16101269/">
+                <img
+                id="links-sociais"
+                src="./imagens/linkedin.png"
+                alt="linkedin"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              />
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/m-abdias">
+                <img
+                id="links-sociais"
+                src="./imagens/github.png"
+                alt="github"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              />
+              </a>
+            </li>
+            <li>
+              <a href="mailto: mabdiasgoncalves@gmail.com" rel="noreferrer" target="_blank">
+                  <img
+                  id="links-sociais"
+                  src="./imagens/email.png"
+                  alt="email"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                />
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/5535998560346"
+              target="_blank">
+                  <img
+                  id="links-sociais"
+                  src="./imagens/whats.png"
+                  alt="whatsapp"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                />
+                </a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <a id="backToTopButton" href="#presentation">
+      <svg
+        width="40"
+        height="40"
+        viewBox="0 0 40 40"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle cx="20" cy="20" r="20" fill="#00856F" />
+        <path
+          d="M20 27V13"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M13 20L20 13L27 20"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
