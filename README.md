@@ -1,15 +1,24 @@
-## Desafio Startse
-# Portfólio
+## 💻 PORTFÓLIO
+- Sobre mim, meus projetos, meus contatos, minhas Skills.
+- Design responsivo.
 
-### A proposta do desafio:
-O desafio consiste em refatorar o projeto realizado na Live Coding do dia 28/05 utilizando tags semânticas.
+### 🧪 Tecnologias
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+- [HTML]
+- [CSS]
+- [JS]
 
-### Realizado:
-Fiz o meu portfólio, inserindo informações sobre mim, minhas habilidades técnicas, meus projetos recentes e meu contato.
 
-### Tecnologias utilizadas:
-  - HTML;
-  - CSS;
-  - JS;
+### 🚀 Link 
+Para acessar ao site do projeto clique no link abaixo:
+- [Link para acessar o Projeto](https://m-abdias.github.io/Portfolio/)
 
-## [Link para o portfólio](http://miscreant-map.surge.sh/)
+
+### 🤝 Colaboradores
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
+- Mariana Abdias
+
+
+
+
+
