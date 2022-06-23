@@ -1,4 +1,5 @@
 window.addEventListener('scroll', onScroll)
+const navigation = document.querySelector('#navigation')
 
 onScroll()
 function onScroll() {
@@ -6,8 +7,8 @@ function onScroll() {
   showBackToTopButtonOnScroll()
 
   activateMenuAtCurrentSection(presentation)
-  activateMenuAtCurrentSection(portfolio)
   activateMenuAtCurrentSection(about)
+  activateMenuAtCurrentSection(portfolio)
   activateMenuAtCurrentSection(contact)
 }
 
@@ -68,4 +69,5 @@ ScrollReveal({
   #portfolio,
   #portfolio .section-title,
   #portfolio .all-projects,
+  #portfolio .project-item,
   #contact`)
